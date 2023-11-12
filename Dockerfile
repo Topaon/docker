@@ -1,3 +1,2 @@
-FROM node
-ADD test.js ./nodejs/
-ENTRYPOINT node nodejs/test.js
+FROM debian:9
+CMD echo "Hello world"
